@@ -1,4 +1,18 @@
 {
+  "expo": {
+    "name": "Remember",
+    "icon": "./assets/remember.png",
+    "version": "1.0.0",
+    "slug": "remember",
+    "sdkVersion": "1.0.0",
+    "privacy": "public",
+    "ios": {
+      "bundleIdentifier": "com.eduhdev.remember"
+    },
+    "android": {
+      "package": "com.eduhdev.remember"
+    }
+  },
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -8,6 +22,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "expo": "^35.0.0",
     "react": "16.8.3",
     "react-dom": "16.8.3",
